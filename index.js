@@ -1,3 +1,7 @@
 var addon = require('bindings')('ffmpeg-lib');
 
-exports.ffmpeg = addon;
+exports.ffmpeg = {
+    hello: function() {
+        addon.hello();
+    }
+};
