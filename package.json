@@ -1,0 +1,19 @@
+{
+  "name": "ffmpeg-lib-wrapper",
+  "version": "1.0.0",
+  "description": "API wrapper around ffmpeg lib.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukaszzdanikowski/node-ffmpeg-lib-wrapper.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Łukasz Zdanikowski",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.2.0"
+  }
+}
